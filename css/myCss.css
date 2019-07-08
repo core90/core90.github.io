@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26.06.2019, 09:40:48
+    Author     : Daniel
+*/
+/*@media (min-width: 700px) { */
+body {
+    background: url("../img/dn_web-pic_big_4600x2700 px.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    margin: 20px;
+}
+
+@font-face {
+    font-family: 'Caudex-Bold';
+    src: url("../font/Caudex/Caudex-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Caudex-Regular';
+    src: url("../font/Caudex/Caudex-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'MontserratAlternates-ExtraLight';
+    src: url("../font/Montserrat_Alternates/MontserratAlternates-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: 'MontserratAlternates-Light';
+    src: url("../font/Montserrat_Alternates/MontserratAlternates-Light.ttf");
+}
+
+@font-face {
+    font-family: 'MontserratAlternates-Medium';
+    src: url("../font/Montserrat_Alternates/MontserratAlternates-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'MontserratAlternates-Bold';
+    src: url("../font/Montserrat_Alternates/MontserratAlternates-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'MontserratAlternates-SemiBold';
+    src: url("../font/Montserrat_Alternates/MontserratAlternates-SemiBold.ttf");
+}
+
+#projectManagement {
+    font-family: 'MontserratAlternates-Medium';
+    font-size: 200%;
+    text-align: right;
+    color: white;
+    margin: 50px;
+}
+
+#comingSoon {
+    font-family: 'Caudex-Regular';
+    text-align: center;
+    color: white;
+    margin: 100px;
+}
+
+#contact {
+    font-family: 'MontserratAlternates-Medium';
+    color: white;
+    font-size: 1.0vw;
+}
+
+#name {
+    font-family: 'MontserratAlternates-Bold';
+    color: white;
+}
+
+/*    #logo {
+        max-width: 80%;
+        height: auto;
+        margin: 60px;
+    }*/
+/*}*/
