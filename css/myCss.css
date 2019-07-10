@@ -41,6 +41,22 @@ and open the template in the editor.
     font-family: 'MontserratAlternates-SemiBold';
     src: url("../font/Montserrat_Alternates/MontserratAlternates-SemiBold.ttf");
 }
+
+html {
+    height: 100%;
+}
+
+#page-content {
+    flex: 1 0 auto;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+    margin-bottom: 50px;
+}
+
+/* Other Classes for Page Styling */
+
 body {
     background: url("../img/dn_web-pic_big_4600x2700 px.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -48,6 +64,7 @@ body {
     background-size: cover;
     -o-background-size: cover;
     margin: 20px;
+    height: 100%;
 }
 
 #projectManagement {
@@ -78,16 +95,23 @@ body {
 
 #logo {
 
-    max-width: 60%;
+    max-width: 40%;
     height: auto;
     margin: 50px;
     display: block;
     text-align: center;
-
 }
 
-
 @media (max-width: 700px) {
+
+    #logo {
+
+        max-width: 60%;
+        height: auto;
+        margin: 50px;
+        display: block;
+        text-align: center;
+    }
 
     #projectManagement {
         font-family: 'MontserratAlternates-Medium';
@@ -106,6 +130,6 @@ body {
     #contact {
         font-family: 'MontserratAlternates-Medium';
         color: white;
-/*        font-size: 1vw;*/
+        /*        font-size: 1vw;*/
     }
 }
