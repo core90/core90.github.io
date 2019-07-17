@@ -58,7 +58,7 @@ html {
 /* Other Classes for Page Styling */
 
 body {
-    background: url("../img/dn_web-pic_big_4600x2700 px.jpg") no-repeat center center fixed;
+    background: url("../img/backgroundNew.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -71,14 +71,14 @@ body {
     font-family: 'MontserratAlternates-Medium';
     font-size: 200%;
     text-align: right;
-    color: white;
+    color: black;
     margin: 50px;
 }
 
 #comingSoon {
     font-family: 'Caudex-Regular';
     text-align: center;
-    color: white;
+    color: black;
     margin: 100px;
 }
 
@@ -117,14 +117,14 @@ body {
         font-family: 'MontserratAlternates-Medium';
         font-size: 100%;
         text-align: center;
-        color: white;
+        color: black;
         margin: 50px;
     }
 
     #comingSoon {
         font-family: 'Caudex-Regular';
         text-align: center;
-        color: white;
+        color: black;
         margin: 50px;
     }
     #contact {
