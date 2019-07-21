@@ -12,6 +12,15 @@ and open the template in the editor.
         <link href="css/bootstrap-reboot.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <link href="css/myCss.css" rel="stylesheet" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+
+            $(document).ready(function () {
+                $("#page-content").fadeIn("slow");
+                $("#sticky-footer").fadeIn("slow");
+            }); 
+
+        </script>
     </head>
     <body class="d-flex flex-column">
         <div id="page-content">
@@ -35,7 +44,7 @@ and open the template in the editor.
                 <div class="row align-items-center">
                     <div class="col"></div>
                     <div class="col" id="comingSoon">
-                        <h1 style="font-size: 50px">coming soon</h1>
+                        <div>coming soon</div>
                     </div>
                     <div class="col"></div>
                 </div>
@@ -44,7 +53,7 @@ and open the template in the editor.
         <footer id="sticky-footer">
             <div id="contact">
                 <div class="row">
-                    <div class="col-1"></div>
+                    <div class="col-md-auto"></div>
                     <div class="col-md-auto">
 
                         <div>Dominic Neubauer e.U.</div>
@@ -52,7 +61,7 @@ and open the template in the editor.
                         <div>8010 Graz, AUSTRIA</div>
 
                     </div>
-                    <div class="col-1"></div>
+                    <div class="col-md-auto"></div>
                     <div class="col-md-auto">
 
                         <div>Phone +43 664 766 61 02</div>
@@ -63,5 +72,7 @@ and open the template in the editor.
                 </div>
             </div>
         </footer>
+
     </body>
+
 </html>
