@@ -48,11 +48,13 @@ html {
 
 #page-content {
     flex: 1 0 auto;
+    display: none;
 }
 
 #sticky-footer {
     flex-shrink: none;
     margin-bottom: 50px;
+    display: none;
 }
 
 /* Other Classes for Page Styling */
@@ -69,14 +71,15 @@ body {
 
 #projectManagement {
     font-family: 'MontserratAlternates-Medium';
-    font-size: 200%;
+    font-size: 120%;
     text-align: right;
     color: black;
-    margin: 50px;
+    margin: 10px;
 }
 
 #comingSoon {
     font-family: 'Caudex-Regular';
+    font-size: 400%;
     text-align: center;
     color: black;
     margin: 100px;
@@ -95,9 +98,9 @@ body {
 
 #logo {
 
-    max-width: 40%;
+    max-width: 25%;
     height: auto;
-    margin: 50px;
+    margin: 10px;
     display: block;
     text-align: center;
 }
