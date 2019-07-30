@@ -53,14 +53,14 @@ html {
 
 #sticky-footer {
     flex-shrink: none;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     display: none;
 }
 
 /* Other Classes for Page Styling */
 
 body {
-    background: url("../img/backgroundNew.jpg") no-repeat center center fixed;
+    background: url("../img/backgroundNewCompressed.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -82,7 +82,7 @@ body {
     font-size: 400%;
     text-align: center;
     color: black;
-    margin: 100px;
+    margin: 150px;
 }
 
 #contact {
