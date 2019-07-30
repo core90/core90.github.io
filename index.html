@@ -5,7 +5,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-    
+
     <head>
         <title>Home</title>
         <meta charset="UTF-8">
@@ -14,14 +14,7 @@ and open the template in the editor.
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <link href="css/myCss.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
-        <script>
 
-            $(document).ready(function () {
-                $("#page-content").fadeIn("slow");
-                $("#sticky-footer").fadeIn("slow");
-            }); 
-
-        </script>
     </head>
     <body class="d-flex flex-column">
         <div id="page-content">
@@ -39,15 +32,10 @@ and open the template in the editor.
 
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col"></div>
-                </div>
                 <div class="row align-items-center">
-                    <div class="col"></div>
                     <div class="col" id="comingSoon">
                         <div>coming soon</div>
                     </div>
-                    <div class="col"></div>
                 </div>
             </div>
         </div>
@@ -73,7 +61,14 @@ and open the template in the editor.
                 </div>
             </div>
         </footer>
+        <script>
 
+            $(document).ready(function () {
+                $("#page-content").fadeIn("slow");
+                $("#sticky-footer").fadeIn("slow");
+            });
+
+        </script>
     </body>
 
 </html>
