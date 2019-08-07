@@ -21,16 +21,20 @@ and open the template in the editor.
             <div class="container-fluid">
                 <div class="row">
                     <div class="col">
-                        <img class="img-fluid" id="logo" src="img/dn_logo-black.png" alt="logo"/>
+                        <div id="mobileLogoParent">
+                            <img class="img-fluid" id="logo" src="img/dn_logo-black.png" alt="logo"/>
+                        </div>
                     </div>
 
-                    <div class="col" id="projectManagement">
+                    <div class="col" >
+                        <div id="projectManagement">
+                            <div>PROJECT</div>
+                            <div>MANAGEMENT</div>
+                            <div>+ DESIGN</div>
 
-                        <div>PROJECT</div>
-                        <div>MANAGEMENT</div>
-                        <div>+ DESIGN</div>
-
+                        </div>
                     </div>
+
                 </div>
                 <div class="row align-items-center">
                     <div class="col" id="comingSoon">
@@ -60,12 +64,14 @@ and open the template in the editor.
                     </div>
                 </div>
             </div>
+
         </footer>
         <script>
 
-            $(document).ready(function () {
-                $("#page-content").fadeIn("slow");
-                $("#sticky-footer").fadeIn("slow");
+            //(document).load(function ()
+            $(window).on('load', function () {
+                $("#page-content").fadeIn(1200);
+                $("#sticky-footer").fadeIn(1200);
             });
 
         </script>
