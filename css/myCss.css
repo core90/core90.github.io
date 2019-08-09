@@ -118,6 +118,9 @@ body {
         height: 100%;
     }
 
+    #footerDistance {
+        margin-top: 30px;
+    }
 
     #logo {
 
@@ -146,6 +149,7 @@ body {
         text-align: center;
         color: black;
         margin: 50px;
+        line-height: 1.0;
     }
     #contact {       
         color: white;
