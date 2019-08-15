@@ -42,6 +42,7 @@ and open the template in the editor.
     src: url("../font/Montserrat_Alternates/MontserratAlternates-SemiBold.ttf");
 }
 
+/*Large Devices, Desktop*/
 html {
     height: 100vh;
 }
@@ -73,7 +74,7 @@ body {
     font-size: 120%;
     text-align: right;
     color: black;
-/*    margin: 10px;*/
+    /*    margin: 10px;*/
 }
 
 #comingSoon {
@@ -105,8 +106,8 @@ body {
 }
 
 
-
-@media screen and (max-width: 700px) {
+/*Small devices (landscape phones, tablets*/
+@media screen and (max-width: 992px) {
 
     body {
         background: url("../img/backgroundNewMobile-min.jpg") no-repeat center center fixed;
@@ -118,9 +119,30 @@ body {
         height: 100%;
     }
 
-    #footerDistance {
-        margin-top: 30px;
+    #mobileLogoParent {
+        margin: 50px 50px 50px 0px;
     }
+
+    #logo {
+        max-width: 80%;
+        height: auto;
+        margin: 0;
+        text-align: center;
+    }
+
+    #projectManagement {
+
+        margin: 50px 0 50px 50px;
+        text-align: right;
+    }
+
+    #footerDistance {
+        margin-top: 10px;
+    }
+}
+
+/*Extra small devices (portrait phones, less than 576px*/
+@media screen and (max-width: 576px) {
 
     #logo {
 
@@ -131,7 +153,7 @@ body {
     }
 
     #mobileLogoParent {
-        margin: 0px 50px 50px 50px;
+        margin: 50px 50px 50px 50px;
         display: block; 
     }
 
@@ -156,18 +178,3 @@ body {
 
     }
 }
-
-@media screen and (max-width: 700px) and (max-height: 400px) {
-
-    #mobileLogoParent {
-        margin: 50px 50px 50px 0px;
-
-    }
-
-    #projectManagement {
-
-        margin: 50px 0 50px 50px;
-        text-align: right;
-    }
-}
-
