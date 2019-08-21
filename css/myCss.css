@@ -1,11 +1,5 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
-    Created on : 26.06.2019, 09:40:48
-    Author     : Daniel
+    Author     : Janisch D.
 */
 @font-face {
     font-family: 'Caudex-Bold';
@@ -47,6 +41,7 @@ html {
     height: 100vh;
 }
 
+/*for sticky-footer*/
 #page-content {
     flex: 1 0 auto;
     display: none;
@@ -74,7 +69,6 @@ body {
     font-size: 120%;
     text-align: right;
     color: black;
-    /*    margin: 10px;*/
 }
 
 #comingSoon {
@@ -109,7 +103,7 @@ body {
 /*Small devices (landscape phones, tablets*/
 @media screen and (max-width: 992px) {
 
-    body {
+/*    body {
         background: url("../img/backgroundNewMobile-min.jpg") no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -117,6 +111,21 @@ body {
         -o-background-size: cover;
         margin: 20px;
         height: 100%;
+    }*/
+
+    body:after{
+        content:"";
+        position:fixed; /* stretch a fixed position to the whole screen */
+        top:0;
+        height:100vh; /* fix for mobile browser address bar appearing disappearing */
+        left:0;
+        right:0;
+        z-index:-1; /* needed to keep in the background */
+        background: url("../img/backgroundNewMobile-min.jpg") center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 
     #mobileLogoParent {
